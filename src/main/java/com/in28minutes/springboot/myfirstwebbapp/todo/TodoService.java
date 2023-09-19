@@ -1,13 +1,16 @@
 package com.in28minutes.springboot.myfirstwebbapp.todo;
 
 import org.springframework.cglib.core.Local;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class TodoService {
 
-    private static List<Todo> todos;
+    private static List<Todo> todos = new ArrayList<>();
 
     static {
         todos.add(new Todo(1, "in28minutes", "Learn AWS",
