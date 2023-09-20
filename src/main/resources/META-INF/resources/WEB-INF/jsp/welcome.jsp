@@ -1,16 +1,14 @@
 <html>
     <head>
-        <title>Login Page</title>
+        <title>Welcome Page</title>
     </head>
 
     <body>
 
-
-        <div>Welcome to the login page !!</div>
-        <div>Your Name : ${name}</div>
-        <div><a href="list-todos">Manage</a> your todos</div>
-
-
+        <div class="container">
+            <div>Welcome ${name}</div>
+            <div><a href="list-todos">Manage</a> your todos</div>
+        </div>
 
     </body>
 </html>
