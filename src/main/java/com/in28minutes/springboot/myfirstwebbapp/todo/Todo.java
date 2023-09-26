@@ -9,7 +9,6 @@ import jakarta.validation.constraints.Size;
 import java.time.LocalDate;
 
 @Entity
-
 public class Todo {
     public Todo(int id, String username, String description, LocalDate targetDate, boolean done) {
         this.id = id;
